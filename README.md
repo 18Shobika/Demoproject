@@ -4,7 +4,9 @@ A Simple To-Do API with FastAPI and SQLite
 Objective:
 The goal of this assignment is to create a simple To-Do API using FastAPI, SQLAlchemy, and
 SQLite. By completing this assignment, you'll learn how to set up a FastAPI project, create and use
-database models, write CRUD operations, and test your API.Part 1: Project Setup
+database models, write CRUD operations, and test your API.
+
+Part 1: Project Setup
 1. Create a Project Directory:
  - Create a new directory for your project called `todo_api`.
  - Navigate into the directory.
@@ -49,7 +51,7 @@ Part 5: Create FastAPI Application
 1. Create FastAPI Endpoints:
  - In `app/main.py`, create the FastAPI application and endpoints
  
- Part 6: Running and Testing the API
+Part 6: Running and Testing the API
 1. Run the Application:
  - Start the FastAPI application using Uvicorn:
  uvicorn app.main:app --reload
